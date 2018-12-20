@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Padding="0, 20, 0, 0" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BetCalculatorApp"
+             x:Class="BetCalculatorApp.MainPage">
+ 
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="infoStyle" TargetType="Button">
+                <Setter Property="WidthRequest" Value="60"/>
+                <Setter Property="HeightRequest" Value="60"/>
+                <Setter Property="BorderRadius" Value="30"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="36"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid Padding="5, 0" RowSpacing="5" ColumnSpacing="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="resultText" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Black" Text="0"
+               TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+               LineBreakMode="NoWrap" Grid.ColumnSpan="4"/>
+        <Button Text="Back" Clicked="Button_Clicked" TextColor="AliceBlue"/>
+        <Button Text="AC" Grid.Row="1" Grid.Column="0" Style="{StaticResource infoStyle}" TextColor="Blue" BackgroundColor="Silver" Clicked="OnClear"/>
+        <Button TextColor="Blue" Text="√" Grid.Row="1" Grid.Column="1" Style="{StaticResource infoStyle}" BackgroundColor="Silver" FontSize="Medium" Clicked="OnSquareRoot"/>
+        <Button TextColor="Blue" BorderRadius="30" Text="%" Grid.Row="1" Grid.Column="2" Style="{StaticResource infoStyle}" BackgroundColor="Silver" Clicked="OnPercentage"/>
+        <Button Text="7" Grid.Row="2" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button Text="8" Grid.Row="2" Grid.Column="1" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button Text="9" Grid.Row="2" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+
+        <Button Text="4" Grid.Row="3" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+
+        <Button Text="5" Grid.Row="3" Grid.Column="1" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button Text="6" Grid.Row="3" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+
+        <Button Text="1" Grid.Row="4" Grid.Column="0" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button Text="2" Grid.Row="4" Grid.Column="1" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button Text="3" Grid.Row="4" Grid.Column="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button Text="0" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Silver" Clicked="OnSelectNumber" Style="{StaticResource infoStyle}"/>
+        <Button TextColor="Blue" Text="x2" Grid.Row="5" Grid.Column="2" BackgroundColor="Silver" Clicked="squareclicked" Style="{StaticResource infoStyle}"/>
+        <Button Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="Silver" Clicked="OnCalculate" Style="{StaticResource infoStyle}"/>
+        <Button Text="÷" Grid.Row="1" Grid.Column="3" BackgroundColor="Silver" Clicked="OnSelectOperator" Style="{StaticResource infoStyle}"/>
+        <Button Text="*" Grid.Row="2" Grid.Column="3" BackgroundColor="Silver" Clicked="OnSelectOperator" Style="{StaticResource infoStyle}"/>
+        <Button Text="-" Grid.Row="3" Grid.Column="3" BackgroundColor="Silver" Clicked="OnSelectOperator" Style="{StaticResource infoStyle}"/>
+        <Button Text="+" Grid.Row="4" Grid.Column="3" BackgroundColor="Silver" Clicked="OnSelectOperator" Style="{StaticResource infoStyle}"/>
+    </Grid>
+
+</ContentPage>

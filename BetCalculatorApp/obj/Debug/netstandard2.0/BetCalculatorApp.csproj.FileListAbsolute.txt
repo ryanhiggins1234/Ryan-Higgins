@@ -1,0 +1,13 @@
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\BetCalculatorApp.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\BetCalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\BetCalculatorApp.AssemblyInfoInputs.cache
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\BetCalculatorApp.AssemblyInfo.cs
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\BetCalculatorApp.dll
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\BetCalculatorApp.pdb
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\bin\Debug\netstandard2.0\BetCalculatorApp.deps.json
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\bin\Debug\netstandard2.0\BetCalculatorApp.dll
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\bin\Debug\netstandard2.0\BetCalculatorApp.pdb
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ryan\Documents\BetCalculatorApp(ThisOne)\BetCalculatorApp\BetCalculatorApp\BetCalculatorApp\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs

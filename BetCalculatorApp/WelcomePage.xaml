@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  Title="Bet Calulator App - Ryan Higgins G00337350@gmit.ie"  BackgroundColor="WhiteSmoke"  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BetCalculatorApp.WelcomePage">
+    <StackLayout  HorizontalOptions="Center" VerticalOptions="Center" Padding="40">
+        <Label Text="Welcome to my App!" HorizontalOptions="Center" />
+        <Label  Text="This is my simple Bet Calculator" HorizontalOptions="Center" />
+        <Label Text="Simple Bet Calcuation - Odds 6/4 Stake = €20" HorizontalOptions="Center" />
+        <Label Text="Sum = €20*6 = €120/4 = €30" HorizontalOptions="Center" />
+        <Label Text="Total Return = €50" HorizontalOptions="Center" />
+        <Label  Text="Other Example: €20 @ 7/4" HorizontalOptions="Center" />
+        <Label Text="Sum = €20*7 = €140/4 = €35" HorizontalOptions="Center" />
+        <Label  Text="Total Return =  €35 + €20 = €55" HorizontalOptions="Center" />
+        <Button Text="Next Page" Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
